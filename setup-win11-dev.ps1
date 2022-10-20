@@ -28,30 +28,30 @@ Set-ItemProperty -Path HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\
 
 echo "Install Apps with Winget"
 echo "7Zip Install"
-winget install -e --id 7zip.7zip
+winget install -e --id 7zip.7zip -h
 echo "NodeJS Install"
-winget install -e --id OpenJS.NodeJS
+winget install -e --id OpenJS.NodeJS -h
 
 echo "OhMyPosh Install"
-winget install -e --id JanDeDobbeleer.OhMyPosh
+winget install -e --id JanDeDobbeleer.OhMyPosh -h
 
 echo "VSCode Install"
-winget install -e --id Microsoft.VisualStudioCode
+winget install -e --id Microsoft.VisualStudioCode -h
 echo "DBeaver Install"
-winget install -e --id dbeaver.dbeaver
+winget install -e --id dbeaver.dbeaver -h
 
 echo "Postman Install"
-winget install -e --id Postman.Postman
+winget install -e --id Postman.Postman -h
 echo "Chrome Install"
-winget install -e --id Google.Chrome
+winget install -e --id Google.Chrome -h
 echo "Notion Install"
-winget install -e --id Notion.Notion
+winget install -e --id Notion.Notion -h
 echo "PowerToys Install"
-winget install -e --id Microsoft.PowerToys
+winget install -e --id Microsoft.PowerToys -h
 echo "AnyDesk Install"
-winget install -e --id AnyDeskSoftwareGmbH.AnyDesk
+winget install -e --id AnyDeskSoftwareGmbH.AnyDesk -h
 echo "Notepad++ Install"
-winget install -e --id Notepad++.Notepad++
+winget install -e --id Notepad++.Notepad++ -h
 
 echo "wsl Install"
 wsl --install
