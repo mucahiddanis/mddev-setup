@@ -28,30 +28,30 @@ Set-ItemProperty -Path HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\
 
 echo "Install Apps with Winget"
 echo "7Zip Install"
-winget install -e --id 7zip.7zip -h --accept-source-agreements
+winget install -e --id 7zip.7zip -h --accept-package-agreements
 echo "NodeJS Install"
-winget install -e --id OpenJS.NodeJS -h --accept-source-agreements
+winget install -e --id OpenJS.NodeJS -h --accept-package-agreements
 
 echo "OhMyPosh Install"
-winget install -e --id JanDeDobbeleer.OhMyPosh -h --accept-source-agreements
+winget install -e --id JanDeDobbeleer.OhMyPosh -h --accept-package-agreements
 
 echo "VSCode Install"
-winget install -e --id Microsoft.VisualStudioCode -h --accept-source-agreements
+winget install -e --id Microsoft.VisualStudioCode -h --accept-package-agreements
 echo "DBeaver Install"
-winget install -e --id dbeaver.dbeaver -h --accept-source-agreements
+winget install -e --id dbeaver.dbeaver -h --accept-package-agreements
 
 echo "Postman Install"
-winget install -e --id Postman.Postman -h --accept-source-agreements
+winget install -e --id Postman.Postman -h --accept-package-agreements
 echo "Chrome Install"
-winget install -e --id Google.Chrome -h --accept-source-agreements
+winget install -e --id Google.Chrome -h --accept-package-agreements
 echo "Notion Install"
-winget install -e --id Notion.Notion -h --accept-source-agreements
+winget install -e --id Notion.Notion -h --accept-package-agreements
 echo "PowerToys Install"
-winget install -e --id Microsoft.PowerToys -h --accept-source-agreements
+winget install -e --id Microsoft.PowerToys -h --accept-package-agreements
 echo "AnyDesk Install"
-winget install -e --id AnyDeskSoftwareGmbH.AnyDesk -h --accept-source-agreements
+winget install -e --id AnyDeskSoftwareGmbH.AnyDesk -h --accept-package-agreements
 echo "Notepad++ Install"
-winget install -e --id Notepad++.Notepad++ -h --accept-source-agreements
+winget install -e --id Notepad++.Notepad++ -h --accept-package-agreements
 
 echo "wsl Install"
 wsl --install
