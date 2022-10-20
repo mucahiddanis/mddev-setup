@@ -28,30 +28,30 @@ Set-ItemProperty -Path HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\
 
 echo "Install Apps with Winget"
 echo "7Zip Install"
-winget install -e --id 7zip.7zip -h
+winget install -e --id 7zip.7zip -h --accept-source-agreements
 echo "NodeJS Install"
-winget install -e --id OpenJS.NodeJS -h
+winget install -e --id OpenJS.NodeJS -h --accept-source-agreements
 
 echo "OhMyPosh Install"
-winget install -e --id JanDeDobbeleer.OhMyPosh -h
+winget install -e --id JanDeDobbeleer.OhMyPosh -h --accept-source-agreements
 
 echo "VSCode Install"
-winget install -e --id Microsoft.VisualStudioCode -h
+winget install -e --id Microsoft.VisualStudioCode -h --accept-source-agreements
 echo "DBeaver Install"
-winget install -e --id dbeaver.dbeaver -h
+winget install -e --id dbeaver.dbeaver -h --accept-source-agreements
 
 echo "Postman Install"
-winget install -e --id Postman.Postman -h
+winget install -e --id Postman.Postman -h --accept-source-agreements
 echo "Chrome Install"
-winget install -e --id Google.Chrome -h
+winget install -e --id Google.Chrome -h --accept-source-agreements
 echo "Notion Install"
-winget install -e --id Notion.Notion -h
+winget install -e --id Notion.Notion -h --accept-source-agreements
 echo "PowerToys Install"
-winget install -e --id Microsoft.PowerToys -h
+winget install -e --id Microsoft.PowerToys -h --accept-source-agreements
 echo "AnyDesk Install"
-winget install -e --id AnyDeskSoftwareGmbH.AnyDesk -h
+winget install -e --id AnyDeskSoftwareGmbH.AnyDesk -h --accept-source-agreements
 echo "Notepad++ Install"
-winget install -e --id Notepad++.Notepad++ -h
+winget install -e --id Notepad++.Notepad++ -h --accept-source-agreements
 
 echo "wsl Install"
 wsl --install
